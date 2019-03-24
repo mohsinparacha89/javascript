@@ -44,3 +44,17 @@ switch (name){
     default : 
         console.log('no name');
 }
+
+let day;
+switch(new Date().getDay()){
+    case 0:
+        day = 'sunday';
+        break;
+    case 1:
+        day = 'Monday';
+        break;
+     case 2:
+        day = 'Tuesday';
+        break;
+}
+console.log(day)
